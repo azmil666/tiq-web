@@ -144,7 +144,8 @@
   <img
     src="/media/pic1.png"
     alt="speaker"
-    class="lg:hidden mx-auto mt-6 w-64 max-w-[80%] rounded-3xl shadow-xl"
+    class="lg:hidden block mx-auto my-10 w-64 max-w-[80%] rounded-3xl shadow-xl"
+
   />
 
   <!-- TEXT -->
@@ -181,7 +182,8 @@
   <img
     src="/media/pic2.png"
     alt="audience"
-    class="lg:hidden mx-auto mb-10 w-64 max-w-[80%] rounded-3xl shadow-xl"
+    class="lg:hidden block mx-auto my-10 w-64 max-w-[80%] rounded-3xl shadow-xl"
+
   />
 
   <!-- DESKTOP ONLY (UNCHANGED) -->
