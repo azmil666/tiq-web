@@ -8,9 +8,9 @@ import Menu from './Menu.svelte';
 	let preview = null;
 
 	const gallery = {
-		2022: ["/media/2022(1).png","/media/2022(2).png","/media/2022(4).png"],
-		2023: ["/media/2023(1).png","/media/2023(2).png","/media/2023(3).png"],
-		2024: ["/media/2024(1).png","/media/2024(2).png","/media/2024(3).png"]
+		2022: ["/media/2022(1).webp","/media/2022(2).webp","/media/2022(3).webp"],
+		2023: ["/media/2023(1).webp","/media/2023(2).webp","/media/2023(3).webp"],
+		2024: ["/media/2024(1).webp","/media/2024(2)-2.webp","/media/2024(3).webp"]
 	};
 
 	function setYear(year) { selectedYear = year; }
