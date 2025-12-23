@@ -1,7 +1,7 @@
 <script>
   
   import { Instagram, Linkedin } from 'lucide-svelte';
-	import Menu from './menu.svelte';
+	import Menu from './Menu.svelte';
  
 </script>
 

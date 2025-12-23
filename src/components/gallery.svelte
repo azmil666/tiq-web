@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-import Menu from './menu.svelte';
+import Menu from './Menu.svelte';
 	
 
 	// Gallery state
