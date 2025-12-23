@@ -172,17 +172,20 @@
     </p>
 
     <a
-      href="/register"
-      class="mt-6 px-7 py-3 bg-[#70B5F4] rounded-full text-xl mx-auto lg:mx-0 hover:bg-[#f2b94f]"
-    >
-      Register Now
-    </a>
+  href="/register"
+  class="mt-6 px-7 py-3 bg-[#70B5F4] rounded-full text-xl
+         inline-flex w-fit self-center lg:self-start
+         hover:bg-[#f2b94f]"
+>
+  Register Now
+</a>
+
   </div>
 
   <!-- MOBILE: BOTTOM IMAGE -->
   <div class="lg:hidden w-full flex justify-center my-10">
   <img
-    src="/media/pic10.png"
+    src="/media/pic11.png"
     alt="audience"
     class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
