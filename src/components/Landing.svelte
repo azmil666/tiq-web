@@ -51,22 +51,26 @@
 <div class="relative overflow-hidden flex flex-col lg:flex-row min-h-screen items-center justify-between">
 -->
 <div class="relative overflow-hidden flex flex-col lg:flex-row
-            min-h-[80vh] md:min-h-screen
+            min-h-[70vh] md:min-h-screen
             items-center justify-center lg:justify-between">
 
 
 	<div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left">
-		<h1 class="text-[#70B5F4] font-[merriweather] text-2xl sm:text-6xl lg:text-7xl leading-tight text-center lg:text-left">
+		<h1 class="text-[#70B5F4] font-[merriweather]
+           text-2xl sm:text-5xl lg:text-7xl
+           leading-snug sm:leading-tight
+           text-center lg:text-left">
   <span class="block">THE</span>
   <span class="block">ILLUMINATI QUIZ</span>
   <span class="block">2025</span>
 </h1>
 
-<p class="mt-1 text-base sm:text-lg md:text-3xl font-[merriweather] text-[#70B5F4]">
+
+<p class="mt-2 text-sm sm:text-lg md:text-3xl font-[merriweather] text-[#70B5F4]">
   18th Edition
 </p>
 
-<p class="text-[#70B5F4] mt-3 font-[merriweather]  text-sm sm:text-base md:text-xl">In memory of Sandeep Menon</p>
+<p class="mt-2 text-xs sm:text-base md:text-xl text-[#70B5F4] font-[merriweather]">In memory of Sandeep Menon</p>
 		<div class="mt-6 flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
 <p class="text-white text-lg font-[merriweather]">
   
@@ -109,16 +113,16 @@
   "
 />
 
+<!-- MOBILE HERO IMAGE -->
+<img
+  src="/media/pic2.png"
+  alt="audience"
+  class="lg:hidden mt-8 w-56 rounded-3xl shadow-xl"
+/>
 
 
 
 </div>
-<img
-  src="/media/pic2.png"
-  alt="audience"
-  class="block lg:hidden mt-6 w-64 mx-auto rounded-2xl shadow-lg"
-/>
-
 
 
 <!-- Event Info Sections with Light Blue Background -->
@@ -182,7 +186,7 @@
 
 	<!-- CTA Section -->
 	<div class="flex flex-col items-center bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] text-center py-16 px-4">
-		<h1 class="text-6xl text-[#70B5F4] font-[merriweather]">Are you up against the best of India?</h1>
+		<h1 class="text-3xl sm:text-5xl md:text-6xl text-[#70B5F4] font-[merriweather]">Are you up against the best of India?</h1>
 		<p class="mt-4 text-[#70B5F4] text-base font-[merriweather]">
 			Register now to experience premium quizzing and win ₹55,000
 		</p>
