@@ -2,9 +2,7 @@
 	import Menu from './Menu.svelte';
 	import { page } from '$app/stores';
 
-	function scrollToTop() {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
+	
 
 	let scrollRef;
 
@@ -105,66 +103,3 @@
 	</div>
 </div>
 
-<!-- OUR TEAM SECTION 
-<div class="w-full bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] py-10 sm:py-20 px-4 sm:px-10">
-	<h1 class="text-center text-3xl sm:text-4xl md:text-5xl font-[merriweather] text-[#70B5F4] mb-6 sm:mb-12">
-		OUR TEAM
-	</h1>
-
-	<div class="flex justify-center items-center gap-4 sm:gap-6">
-		<button 
-			on:click={scrollLeft}
-			class="text-[#70B5F4] text-2xl sm:text-3xl cursor-pointer select-none hover:scale-110 transition"
-		>
-			‹
-		</button>
-
-		<div 
-			bind:this={scrollRef}
-			class="flex gap-4 sm:gap-8 overflow-x-auto px-2 sm:px-4 scroll-smooth no-scrollbar max-w-[80vw]"
-		>
-			
-			<div class="bg-[#0d1828] flex-shrink-0 rounded-xl p-4 sm:p-6 w-40 sm:w-56 h-60 sm:h-72 flex flex-col justify-center items-center border border-[#1a2a40]">
-				<div class="h-24 sm:h-32 w-24 sm:w-32 bg-[#163152] rounded-lg mb-2 sm:mb-4"></div>
-				<h2 class="text-white text-lg sm:text-xl font-light">Lead</h2>
-			</div>
-			<div class="bg-[#0d1828] flex-shrink-0 rounded-xl p-4 sm:p-6 w-40 sm:w-56 h-60 sm:h-72 flex flex-col justify-center items-center border border-[#1a2a40]">
-				<div class="h-24 sm:h-32 w-24 sm:w-32 bg-[#163152] rounded-lg mb-2 sm:mb-4"></div>
-				<h2 class="text-white text-lg sm:text-xl font-light">Lead</h2>
-			</div>
-			<div class="bg-[#0d1828] flex-shrink-0 rounded-xl p-4 sm:p-6 w-40 sm:w-56 h-60 sm:h-72 flex flex-col justify-center items-center border border-[#1a2a40]">
-				<div class="h-24 sm:h-32 w-24 sm:w-32 bg-[#163152] rounded-lg mb-2 sm:mb-4"></div>
-				<h2 class="text-white text-lg sm:text-xl font-light">Lead</h2>
-			</div>
-			<div class="bg-[#0d1828] flex-shrink-0 rounded-xl p-4 sm:p-6 w-40 sm:w-56 h-60 sm:h-72 flex flex-col justify-center items-center border border-[#1a2a40]">
-				<div class="h-24 sm:h-32 w-24 sm:w-32 bg-[#163152] rounded-lg mb-2 sm:mb-4"></div>
-				<h2 class="text-white text-lg sm:text-xl font-light">Lead</h2>
-			</div>
-			<div class="bg-[#0d1828] flex-shrink-0 rounded-xl p-4 sm:p-6 w-40 sm:w-56 h-60 sm:h-72 flex flex-col justify-center items-center border border-[#1a2a40]">
-				<div class="h-24 sm:h-32 w-24 sm:w-32 bg-[#163152] rounded-lg mb-2 sm:mb-4"></div>
-				<h2 class="text-white text-lg sm:text-xl font-light">Lead</h2>
-			</div>
-			<div class="bg-[#0d1828] flex-shrink-0 rounded-xl p-4 sm:p-6 w-40 sm:w-56 h-60 sm:h-72 flex flex-col justify-center items-center border border-[#1a2a40]">
-				<div class="h-24 sm:h-32 w-24 sm:w-32 bg-[#163152] rounded-lg mb-2 sm:mb-4"></div>
-				<h2 class="text-white text-lg sm:text-xl font-light">Lead</h2>
-			</div>
-		</div>
-
-		<button 
-			on:click={scrollRight}
-			class="text-[#70B5F4] text-2xl sm:text-3xl cursor-pointer select-none hover:scale-110 transition"
-		>
-			›
-		</button>
-	</div>
-</div>   -->
-
-<!-- Scroll to top -->
-<button
-	on:click={scrollToTop}
-	class="cursor-pointer fixed bottom-5 sm:bottom-10 right-5 sm:right-10 bg-[#70B5F4] rounded-full p-3"
->
-	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-		<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18"/>
-	</svg>
-</button>

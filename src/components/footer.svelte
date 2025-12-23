@@ -29,6 +29,7 @@
 				<li><a href="/about" class="hover:underline">About Us</a></li>
 				<li><a href="/gallery" class="hover:underline">Gallery</a></li>
 				<li><a href="/contact" class="hover:underline">Contact</a></li>
+				<li><a href="/register" class="hover:underline">Register</a></li>
 			</ul>
 		</div>
 
@@ -36,10 +37,10 @@
 		<div class="flex flex-col mt-6 md:mt-0">
 			<h3 class="text-lg font-semibold">Social Media</h3>
 			<div class="flex items-center gap-5 mt-5">
-				<a href="https://instagram.com" target="_blank" class="hover:opacity-70">
+				<a href="https://www.instagram.com/mec_illuminati?igsh=MXB1a2VoYTVqcW1ybw==" target="_blank" class="hover:opacity-70">
 					<Instagram class="w-6 h-6" />
 				</a>
-				<a href="https://linkedin.com" target="_blank" class="hover:opacity-70">
+				<a href="https://www.linkedin.com/company/illuminati-quiz-club/" target="_blank" class="hover:opacity-70">
 					<Linkedin class="w-6 h-6" />
 				</a>
 			</div>
@@ -48,6 +49,6 @@
 	</div>
 
 	<div class="text-center text-xs mt-10 opacity-70">
-		© {new Date().getFullYear()} TIQ Quiz. All rights reserved.
+		© {new Date().getFullYear()} The Illuminati Quiz Club. All rights reserved.
 	</div>
 </footer>

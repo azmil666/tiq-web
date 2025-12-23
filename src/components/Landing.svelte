@@ -5,10 +5,7 @@
 
 	let showMobileMenu = false;
 
-	function scrollToTop() {
-		window.scroll({ top: 0, behavior: 'smooth' });
-	}
-
+	
 	let tabs = [
 		{ name: 'About Us', link: '/about' },
 		{ name: 'Contact Us', link: '/contact' },
@@ -23,7 +20,7 @@
   <!-- Logo -->
   <div class="flex items-center space-x-4">
     <img class="w-20 h-21" src="/favicon.svg" alt="tiq" />
-    <span class="hidden md:flex space-x-6 text-[#F8F3E2] font-light text-lg">
+    <span class="hidden md:flex space-x-6 text-[#F8F3E2] font-[merriweather] font-light text-lg tracking-wide">
       {#each tabs as tab}
         <a href={tab.link} class="hover:text-[#70B5F4]">{tab.name}</a>
       {/each}
@@ -40,7 +37,7 @@
 
 <!-- Mobile Menu -->
 {#if showMobileMenu}
-  <div class="md:hidden flex flex-col bg-[#020912] text-[#F8F3E2] p-4 space-y-4">
+  <div class="md:hidden flex flex-col bg-[#020912] font-[merriweather] text-[#F8F3E2] p-4 space-y-4">
     {#each tabs as tab}
       <a href={tab.link} class="hover:text-[#70B5F4]" on:click={() => showMobileMenu = false}>{tab.name}</a>
     {/each}
@@ -49,36 +46,71 @@
 
 
 	<!-- Hero Section -->
-<div class="flex flex-col lg:flex-row items-center justify-between px-4 md:px-10 mt-10 lg:mt-20 gap-10">
-	<div class="flex flex-col flex-1 text-center lg:text-left">
+
+
+<div class="relative overflow-hidden flex flex-col lg:flex-row min-h-screen items-center justify-between">
+
+
+	<div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left">
 		<h1 class="text-[#70B5F4] font-[merriweather] text-4xl md:text-6xl lg:text-7xl leading-tight">
-			<span class="block">THE</span>
-			<span class="block">ILLUMINATI QUIZ</span>
-			<span class="block">2026</span>
-		</h1>
-		<p class="text-[#AACCCE] mt-4 italic text-lg md:text-xl">In memory of Sandeep Menon</p>
+  <span class="block">THE</span>
+  <span class="block">ILLUMINATI QUIZ</span>
+  <span class="block">2025</span>
+</h1>
+
+<p class="mt-2 text-2xl md:text-3xl font-[merriweather] text-[#70B5F4]">
+  18th Edition
+</p>
+
+<p class="text-[#70B5F4] mt-4 font-[merriweather]  text-lg md:text-xl">In memory of Sandeep Menon</p>
 		<div class="mt-6 flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
-			<p class="text-white text-lg font-light">
-				Date: <span class="font-semibold text-[#AACCCE]">3 Jan 2026</span>
-			</p>
-			<a href="/register" class="px-7 py-3 bg-[#70B5F4] rounded-full text-xl hover:bg-[#f2b94f] transition-all duration-300">
+<p class="text-white text-lg font-[merriweather]">
+  
+  <span class="font-[merriweather] text-[#70B5F4]">
+    3rd Jan 2026 · IMA House, Cochin
+  </span>
+</p>
+
+			<a href="/register" class="px-7 py-3 bg-[#70B5F4] rounded-full text-xl font-[merriweather] hover:bg-[#f2b94f] transition-all duration-300">
 				Register Now
 			</a>
 		</div>
 	</div>
-	<img class="w-full max-w-md lg:max-w-sm" src="/media/pic1.png" alt="speaker" />
+<img
+  src="/media/pic1.png"
+  alt="speaker"
+  class="
+    hidden lg:block
+    absolute
+    -top-[72px]
+    right-0
+    h-[60vh]
+    object-cover
+    rounded-b-[3rem]
+  "
+/>
+
+
+<img
+  src="/media/pic2.png"
+  alt="audience"
+  class="
+    hidden lg:block
+    absolute
+    -bottom-[72px]
+    right-[22%]
+    h-[50vh]
+    object-cover
+    rounded-t-[3rem]
+  "
+/>
+
+
+
+
 </div>
 
-<!-- Hosted by Section -->
-<div class="flex flex-col lg:flex-row items-center justify-center px-4 md:px-10 mt-10 gap-8">
-	<div class="flex flex-col items-center lg:items-start">
-		<img class="w-40 md:w-48" src="/media/Frame4.png" alt="round speaker" />
-		<p class="mt-2 text-[#AACCCE] italic text-center lg:text-left text-sm md:text-base">
-			Hosted by Major Chandrakanth Nair
-		</p>
-	</div>
-	<img class="w-full max-w-sm lg:max-w-xs" src="/media/pic2.png" alt="speaker" />
-</div>
+
 
 <!-- Event Info Sections with Light Blue Background -->
 <div class="flex flex-col gap-16 px-4 md:px-20 py-10 bg-[#A9D1F7]">
@@ -142,22 +174,15 @@
 	<!-- CTA Section -->
 	<div class="flex flex-col items-center bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] text-center py-16 px-4">
 		<h1 class="text-6xl text-[#70B5F4] font-[merriweather]">Are you up against the best of India?</h1>
-		<p class="mt-4 text-white text-base">
+		<p class="mt-4 text-[#70B5F4] text-base font-[merriweather]">
 			Register now to experience premium quizzing and win ₹55,000
 		</p>
-		<a href="/register" class="mt-6 px-5 py-2 bg-[#70B5F4] rounded-full text-xl hover:bg-white transition-all duration-300">
+		<a href="/register" class="mt-6 px-5 py-2 bg-[#70B5F4] font-[merriweather] rounded-full text-xl hover:bg-white transition-all duration-300">
 			Register Now
 		</a>
-		<p class="mt-4 text-[#AACCCE] font-thin">** Registration fees ₹200/Team. Free for School Students</p>
+		<p class="mt-4 text-[#70B5F4] font-[merriweather]"> Registration fees ₹200/Team. Free for School Students</p>
 	</div>
 
-	<button
-		on:click={scrollToTop}
-		class="fixed bottom-10 right-10 bg-[#70B5F4] rounded-full p-3 cursor-pointer"
-	>
-		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-			<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
-		</svg>
-	</button>
+	
 
 </div>

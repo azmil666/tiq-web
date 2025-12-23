@@ -13,7 +13,7 @@
   <div class="h-[40%] flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]"></div>
 
   <!-- LIGHT BLUE BOTTOM BG -->
-  <div class="bg-[#E2F0FC] h-[60%] w-full"></div>
+  <div class="bg-[#101a2a] h-[60%] w-full"></div> 
 
   <!-- CONTACT CARD -->
   <div
@@ -28,7 +28,7 @@
     </h1>
 
     <!-- Intro -->
-    <p class="text-base text-[#020913] font-light leading-relaxed text-center mb-6 px-2 sm:px-6">
+    <p class="text-base text-[#020913] font-[merriweather] leading-relaxed text-center mb-6 px-2 sm:px-6">
       We’d love to hear from you! Whether you have a question or feedback,
       reach out to us through our social platforms.
     </p>
@@ -42,9 +42,9 @@
             <a
               href="https://www.linkedin.com/company/illuminati-quiz-club/"
               target="_blank"
-              class="underline hover:text-[#7B3C27] break-all"
+              class="underline hover:text-[#7B3C27] break-all font-[merriweather]"
             >
-              linkedin.com/company/TheIlluminatiQuizClub
+              TheIlluminatiQuizClub
             </a>
           </div>
         </li>
@@ -55,7 +55,7 @@
             <a
               href="https://www.instagram.com/mec_illuminati?igsh=MW9pZHNycTNxdjhybQ=="
               target="_blank"
-              class="underline hover:text-[#7B3C27] break-all"
+              class="underline hover:text-[#7B3C27] break-all font-[merriweather]"
             >
               @mec_illuminati
             </a>
@@ -65,26 +65,26 @@
     </div>
     <!-- QUERIES CONTACT -->
 <div class="mt-8 w-full text-center">
-  <p class="text-lg font-medium text-[#020913] mb-3">
+  <p class="text-lg font-[merriweather] text-[#020913] mb-3">
     For queries related to the quiz competition:
   </p>
 
   <div class="space-y-2 text-base text-[#020913]">
     <p>
-      <span class="font-semibold">John Thomas:</span>
+      <span class="font-[merriweather]">John Thomas:</span>
       <a
         href="tel:+916238552368"
-        class="underline hover:text-[#7B3C27]"
+        class="underline hover:text-[#7B3C27] font-[merriweather]"
       >
         +91 62385 52368
       </a>
     </p>
 
     <p>
-      <span class="font-semibold">Harry Abraham:</span>
+      <span class="font-[merriweather]">Harry Abraham:</span>
       <a
         href="tel:+917975653941"
-        class="underline hover:text-[#7B3C27]"
+        class="underline hover:text-[#7B3C27] font-[merriweather]"
       >
         +91 79756 53941
       </a>
@@ -93,14 +93,14 @@
 </div>
 
     <!-- Footer note -->
-    <p class="text-base text-[#020913] font-light leading-relaxed text-center mt-6 px-4">
+    <p class="text-base text-[#020913] font-[merriweather] leading-relaxed text-center mt-6 px-4">
       In memory of <strong>Sandeep Menon</strong>, founder of TIQ and alumnus of MEC.
     </p>
 
     <a
       href="https://sandeepmenonfoundation.org"
       target="_blank"
-      class="text-[#020913] font-medium underline hover:text-[#020913] text-center block mt-2"
+      class="text-[#020913] font-[merriweather] underline hover:text-[#020913] text-center block mt-2"
     >
       Visit the Sandeep Menon Foundation →
     </a>
