@@ -45,24 +45,28 @@
 {/if}
 
 
-	<!-- Hero Section -->
+	<!-- Hero Section 
 
 
 <div class="relative overflow-hidden flex flex-col lg:flex-row min-h-screen items-center justify-between">
+-->
+<div class="relative overflow-hidden flex flex-col lg:flex-row
+            min-h-[80vh] md:min-h-screen
+            items-center justify-center lg:justify-between">
 
 
 	<div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left">
-		<h1 class="text-[#70B5F4] font-[merriweather] text-4xl md:text-6xl lg:text-7xl leading-tight">
+		<h1 class="text-[#70B5F4] font-[merriweather] text-2xl sm:text-6xl lg:text-7xl leading-tight text-center lg:text-left">
   <span class="block">THE</span>
   <span class="block">ILLUMINATI QUIZ</span>
   <span class="block">2025</span>
 </h1>
 
-<p class="mt-2 text-2xl md:text-3xl font-[merriweather] text-[#70B5F4]">
+<p class="mt-1 text-base sm:text-lg md:text-3xl font-[merriweather] text-[#70B5F4]">
   18th Edition
 </p>
 
-<p class="text-[#70B5F4] mt-4 font-[merriweather]  text-lg md:text-xl">In memory of Sandeep Menon</p>
+<p class="text-[#70B5F4] mt-3 font-[merriweather]  text-sm sm:text-base md:text-xl">In memory of Sandeep Menon</p>
 		<div class="mt-6 flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
 <p class="text-white text-lg font-[merriweather]">
   
@@ -109,6 +113,11 @@
 
 
 </div>
+<img
+  src="/media/pic2.png"
+  alt="audience"
+  class="block lg:hidden mt-6 w-64 mx-auto rounded-2xl shadow-lg"
+/>
 
 
 
