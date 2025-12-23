@@ -1,5 +1,5 @@
 <script>
-	import Menu from '../components/Menu.svelte';
+	import Menu from './Menu.svelte';
 	import { page } from '$app/stores';
 
 	function scrollToTop() {
