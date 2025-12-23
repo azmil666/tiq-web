@@ -56,19 +56,14 @@
             items-center justify-center lg:justify-between">
 
 <!-- MOBILE HERO STACK -->
-<div class="lg:hidden flex flex-col items-center gap-8 mb-8">
+
   <img
     src="/media/pic1.png"
     alt="speaker"
     class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
 
-  <img
-    src="/media/pic2.png"
-    alt="audience"
-    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
-  />
-</div>
+ 
 
 
 
@@ -102,6 +97,13 @@
 		</div>
 	</div>
 <img
+    src="/media/pic2.png"
+    alt="audience"
+    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
+  />
+
+
+<img
   src="/media/pic1.png"
   alt="speaker"
   class="
@@ -133,7 +135,7 @@
 
 
 </div>
-
+ 
 
 <!-- Event Info Sections with Light Blue Background -->
 <div class="flex flex-col gap-16 px-4 md:px-20 py-10 bg-[#A9D1F7]">
