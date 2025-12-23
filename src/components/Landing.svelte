@@ -182,7 +182,7 @@
   <!-- MOBILE: BOTTOM IMAGE -->
   <div class="lg:hidden w-full flex justify-center my-10">
   <img
-    src="/media/pic2.png"
+    src="/media/pic10.png"
     alt="audience"
     class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
