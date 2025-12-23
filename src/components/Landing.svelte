@@ -141,12 +141,13 @@
             items-center justify-center lg:justify-between">
 
   <!-- MOBILE: TOP IMAGE -->
+  <div class="lg:hidden w-full flex justify-center my-10">
   <img
     src="/media/pic1.png"
     alt="speaker"
-    class="lg:hidden block mx-auto my-10 w-64 max-w-[80%] rounded-3xl shadow-xl"
-
+    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
+</div>
 
   <!-- TEXT -->
   <div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left my-10">
@@ -179,12 +180,14 @@
   </div>
 
   <!-- MOBILE: BOTTOM IMAGE -->
+  <div class="lg:hidden w-full flex justify-center my-10">
   <img
     src="/media/pic2.png"
     alt="audience"
-    class="lg:hidden block mx-auto my-10 w-64 max-w-[80%] rounded-3xl shadow-xl"
-
+    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
+</div>
+
 
   <!-- DESKTOP ONLY (UNCHANGED) -->
   <img
