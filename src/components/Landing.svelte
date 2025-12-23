@@ -52,43 +52,25 @@
 -->
 <div class="relative z-0 overflow-hidden flex flex-col lg:flex-row
             min-h-[70vh] md:min-h-screen
+            pt-52 pb-52 lg:pt-0 lg:pb-0
             items-center justify-center lg:justify-between">
+
 
 			<!-- MOBILE TOP IMAGE (pic1) -->
 <img
   src="/media/pic1.png"
-  alt="speaker"
-  class="
-    lg:hidden
-    absolute
-    top-0
-    right-0
-    w-[70%]
-    max-w-xs
-    object-cover
-    rounded-b-[2.5rem]
-  "
+  class="lg:hidden absolute top-0 right-0 z-0 w-[70%] max-w-xs object-cover rounded-b-[2.5rem]"
 />
 
-<!-- MOBILE BOTTOM IMAGE (pic2) -->
 <img
   src="/media/pic2.png"
-  alt="audience"
-  class="
-    lg:hidden
-    absolute
-    bottom-0
-    right-0
-    w-[70%]
-    max-w-xs
-    object-cover
-    rounded-t-[2.5rem]
-  "
+  class="lg:hidden absolute bottom-0 right-0 z-0 w-[70%] max-w-xs object-cover rounded-t-[2.5rem]"
 />
 
 
 
-	<div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left">
+
+	<div class="relative z-10 flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left">
 		<h1 class="text-[#70B5F4] font-[merriweather]
            text-2xl sm:text-5xl lg:text-7xl
            leading-snug sm:leading-tight
