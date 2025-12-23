@@ -49,13 +49,13 @@
 
 
 <div class="relative overflow-hidden flex flex-col lg:flex-row min-h-screen items-center justify-between">
--->
+
 <div class="relative z-0 overflow-hidden flex flex-col lg:flex-row
             min-h-[70vh] md:min-h-screen
-            pt-52 pb-52 lg:pt-0 lg:pb-0
+            lg:pt-0 lg:pb-0
             items-center justify-center lg:justify-between">
 
-<!-- MOBILE HERO STACK -->
+
 
   <img
     src="/media/pic1.png"
@@ -134,7 +134,69 @@
 
 
 
+</div> -->
+
+<div class="relative overflow-hidden flex flex-col lg:flex-row
+            min-h-[70vh] md:min-h-screen
+            items-center justify-center lg:justify-between">
+
+  <!-- MOBILE: TOP IMAGE -->
+  <img
+    src="/media/pic1.png"
+    alt="speaker"
+    class="lg:hidden mx-auto mt-6 w-64 max-w-[80%] rounded-3xl shadow-xl"
+  />
+
+  <!-- TEXT -->
+  <div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left my-10">
+    <h1 class="text-[#70B5F4] font-[merriweather]
+               text-2xl sm:text-5xl lg:text-7xl
+               leading-snug sm:leading-tight">
+      <span class="block">THE</span>
+      <span class="block">ILLUMINATI QUIZ</span>
+      <span class="block">2025</span>
+    </h1>
+
+    <p class="mt-2 text-sm sm:text-lg md:text-3xl text-[#70B5F4]">
+      18th Edition
+    </p>
+
+    <p class="mt-2 text-xs sm:text-base md:text-xl text-[#70B5F4]">
+      In memory of Sandeep Menon
+    </p>
+
+    <p class="mt-4 text-[#70B5F4]">
+      3rd Jan 2026 · IMA House, Cochin
+    </p>
+
+    <a
+      href="/register"
+      class="mt-6 px-7 py-3 bg-[#70B5F4] rounded-full text-xl mx-auto lg:mx-0 hover:bg-[#f2b94f]"
+    >
+      Register Now
+    </a>
+  </div>
+
+  <!-- MOBILE: BOTTOM IMAGE -->
+  <img
+    src="/media/pic2.png"
+    alt="audience"
+    class="lg:hidden mx-auto mb-10 w-64 max-w-[80%] rounded-3xl shadow-xl"
+  />
+
+  <!-- DESKTOP ONLY (UNCHANGED) -->
+  <img
+    src="/media/pic1.png"
+    class="hidden lg:block absolute -top-[72px] right-0 h-[60vh] rounded-b-[3rem]"
+  />
+
+  <img
+    src="/media/pic2.png"
+    class="hidden lg:block absolute -bottom-[72px] right-[22%] h-[50vh] rounded-t-[3rem]"
+  />
+
 </div>
+
  
 
 <!-- Event Info Sections with Light Blue Background -->
