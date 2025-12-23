@@ -55,18 +55,20 @@
             pt-52 pb-52 lg:pt-0 lg:pb-0
             items-center justify-center lg:justify-between">
 
+<!-- MOBILE HERO STACK -->
+<div class="lg:hidden flex flex-col items-center gap-8 mb-8">
+  <img
+    src="/media/pic1.png"
+    alt="speaker"
+    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
+  />
 
-			<!-- MOBILE TOP IMAGE (pic1) -->
-<img
-  src="/media/pic1.png"
-  class="lg:hidden absolute top-0 right-0 z-0 w-[70%] max-w-xs object-cover rounded-b-[2.5rem]"
-/>
-
-<img
-  src="/media/pic2.png"
-  class="lg:hidden absolute bottom-0 right-0 z-0 w-[70%] max-w-xs object-cover rounded-t-[2.5rem]"
-/>
-
+  <img
+    src="/media/pic2.png"
+    alt="audience"
+    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
+  />
+</div>
 
 
 
