@@ -49,6 +49,8 @@ import Menu from './Menu.svelte';
 			<img
 				src={img}
 				alt="gallery"
+				loading="lazy"
+                decoding="async"
 				class="rounded-lg border border-[#1a2a40] cursor-pointer hover:opacity-80 transition  w-full aspect-[4/3] object-cover"
 				on:click={() => preview = img}
 			/>
@@ -59,7 +61,8 @@ import Menu from './Menu.svelte';
 	{#if preview}
 		<div class="fixed inset-0 bg-black/80 flex justify-center items-center p-4 z-50">
 			<div class="relative max-w-[90vw] max-h-[90vh]">
-				<img src={preview} class="w-full h-full object-contain rounded-lg shadow-lg" />
+				<img src={preview} loading="eager"
+                     decoding="async" class="w-full h-full object-contain rounded-lg shadow-lg" />
 				<button
 					on:click={() => preview = null}
 					class="absolute top-2 right-2 text-white text-3xl hover:scale-110"

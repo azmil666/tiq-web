@@ -66,8 +66,9 @@
     <!-- QUERIES CONTACT -->
 <div class="mt-8 w-full text-center">
   <p class="text-lg font-[merriweather] text-[#020913] mb-3">
-    For queries related to the quiz competition:
-  </p>
+  Contact us for quiz-related queries:
+</p>
+
 
   <div class="space-y-2 text-base text-[#020913]">
     <p>
@@ -102,7 +103,7 @@
       target="_blank"
       class="text-[#020913] font-[merriweather] underline hover:text-[#020913] text-center block mt-2"
     >
-      Visit the Sandeep Menon Foundation →
+      Visit the Sandeep Menon Foundation
     </a>
   </div>
 </div>

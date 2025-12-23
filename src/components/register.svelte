@@ -19,7 +19,7 @@
       <li>Any form of misconduct will result in immediate disqualification.</li>
     </ul>
 
-    <a href="/rules.pdf" download
+    <a href="/media/TIQ.pdf" download
        class="px-6 py-3 rounded-full bg-[#0b1320] text-[#A9D1F7] font-[merriweather] hover:bg-[#143253] transition-all duration-300 inline-block">
       Download Rules PDF
     </a>
