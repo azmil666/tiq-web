@@ -10,7 +10,7 @@
 <!-- CONTACT CARD -->
 <div class="h-screen w-full relative flex flex-col">
   <!-- DARK BLUE TOP SECTION -->
-  <div class="h-[40%] flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]"></div>
+  <div class="h-[40%] flex flex-col relative bg-gradient-to-tr from-[#101a2a] via-[#101a2a] to-[#101a2a]"></div>
 
   <!-- LIGHT BLUE BOTTOM BG -->
   <div class="bg-[#101a2a] h-[60%] w-full"></div> 

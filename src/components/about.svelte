@@ -52,8 +52,9 @@
 	</div>
 </div>
 
-<!-- Sandeep Menon -->
+<!-- Sandeep Menon 
 <div class="flex flex-col lg:flex-row bg-[#A9D1F7] px-4 sm:px-10 py-10 lg:py-20 gap-6">
+
 	<img class="w-40 sm:w-60 mx-auto lg:mx-0" src="/media/sandeep_menon.png" alt="Sandeep Menon" />
 	<div class="flex flex-col lg:ml-10 text-center lg:text-left">
 		<h1 class="text-3xl sm:text-4xl lg:text-6xl font-[merriweather] text-[#020913] font-normal">Sandeep Menon</h1>
@@ -67,9 +68,46 @@
 			lives on through The Illuminati and its marquee event, The Illuminati Quiz.
 		</p>
 	</div>
+</div> -->
+<!-- Sandeep Menon -->
+<div class="flex flex-col lg:flex-row items-center bg-[#A9D1F7]
+            px-4 sm:px-10 lg:px-24
+            py-16 lg:py-28
+            gap-10">
+
+  <!-- Image -->
+  <img
+    class="w-44 sm:w-64 lg:w-80
+           rounded-full
+           mx-auto lg:mx-0
+           shrink-0"
+    src="/media/sandeep_menon.png"
+    alt="Sandeep Menon"
+  />
+
+  <!-- Text -->
+  <div class="flex flex-col lg:ml-12 text-center lg:text-left max-w-3xl">
+    <h1 class="text-3xl sm:text-4xl lg:text-6xl font-[merriweather] text-[#020913] font-normal">
+      Sandeep Menon
+    </h1>
+
+    <h2 class="mt-3 text-xl sm:text-2xl lg:text-4xl italic font-[merriweather] text-[#020913]">
+      (1984) – (2008)
+    </h2>
+
+    <p class="mt-6 text-sm sm:text-base lg:text-lg leading-relaxed text-[#020913]">
+      Sandeep Menon (batch of 2006 – Model Engineering College) is the founder and guiding spirit of
+      the ‘The Illuminati’. An exceptional quizzer, he is affectionately known in local quizzing
+      circles as ‘The Illuminatus’. He was diagnosed with cancer in 2005. Despite deteriorating
+      health, Sandeep pursued his academics with utmost commitment, led the placement cell to bring
+      record number of jobs on campus and instilled the spirit of quizzing in MEC. Yet, his dream
+      lives on through The Illuminati and its marquee event, The Illuminati Quiz.
+    </p>
+  </div>
 </div>
 
-<!-- Govt Model Engineering College -->
+
+<!-- Govt Model Engineering College 
 <div class="flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] px-4 sm:px-10 lg:px-20 py-10 lg:py-20 gap-8">
 	<div class="flex flex-col lg:flex-row items-center gap-6">
 		<img 
@@ -102,4 +140,52 @@
 		</p>
 	</div>
 </div>
+-->
+<!-- Govt Model Engineering College -->
+<div class="relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]
+            px-4 sm:px-10 lg:px-20
+            py-16 lg:py-24">
 
+  <!-- Header -->
+  <div class="flex flex-col lg:flex-row items-center gap-8 mb-12">
+    <img
+      src="/media/college.png"
+      alt="college"
+      class="w-48 sm:w-64 lg:w-[26rem] mx-auto lg:mx-0 h-auto"
+    />
+
+    <h1 class="text-3xl sm:text-4xl lg:text-6xl
+               text-[#70B5F4]
+               font-light font-[merriweather]
+               text-center lg:text-left">
+      Govt. Model <br />Engineering College
+    </h1>
+  </div>
+
+  <!-- Two-column content (SYMMETRICAL) -->
+  <div class="max-w-6xl mx-auto
+              flex flex-col lg:flex-row
+              gap-10
+              font-light text-white leading-relaxed">
+
+    <!-- LEFT PARAGRAPH -->
+    <p class="flex-1">
+      Govt. Model Engineering College, Kochi, is a premier institute of engineering
+      education in Kerala. More than just another engineering college, MEC nurtures
+      a diverse community of budding innovators and entrepreneurs, making it one of
+      the most sought-after destinations for students and recruiters alike. This
+      reputation is reflected in its ranking as the 27th best engineering institute
+      in the country.
+    </p>
+
+    <!-- RIGHT PARAGRAPH -->
+    <p class="flex-1">
+      Illuminati, the quizzing fraternity of Govt. Model Engineering College, Kochi,
+      is among the most active student societies in the campus. Founded by the late
+      Sandeep Menon, it has conducted over a hundred intra- and inter-collegiate
+      quizzes and organises the weekly TGIX quiz, bringing together avid quizzers
+      to compete in a true battle of wits.
+    </p>
+
+  </div>
+</div>

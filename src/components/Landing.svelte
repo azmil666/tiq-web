@@ -16,24 +16,36 @@
 
 <div class="flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]">
 
-	<header class="flex items-center justify-between px-4 md:px-10 py-4 bg-[#020912]">
+<header class="flex items-center justify-between px-4 md:px-10 py-4 bg-[#020912]">
+
   <!-- Logo -->
-  <div class="flex items-center space-x-4">
-    <img class="w-20 h-21" src="/favicon.svg" alt="tiq" />
-    <span class="hidden md:flex space-x-6 text-[#F8F3E2] font-[merriweather] font-light text-lg tracking-wide">
-      {#each tabs as tab}
-        <a href={tab.link} class="hover:text-[#70B5F4]">{tab.name}</a>
-      {/each}
-    </span>
-  </div>
+  <img class="w-20 h-21" src="/favicon.svg" alt="tiq" />
+
+  <!-- Desktop Nav -->
+  <nav class="hidden md:flex items-center space-x-6 text-[#F8F3E2] font-[merriweather] font-light text-lg tracking-wide">
+    {#each tabs as tab}
+      <a
+        href={tab.link}
+        class={tab.name === 'Register'
+          ? 'bg-[#A9D1F7] text-[#020912] px-5 py-2 rounded-lg font-semibold hover:bg-[#8fc0f0]'
+          : 'hover:text-[#70B5F4]'
+        }
+      >
+        {tab.name}
+      </a>
+    {/each}
+  </nav>
 
   <!-- Mobile Hamburger -->
   <button class="md:hidden" on:click={() => showMobileMenu = !showMobileMenu}>
     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#F8F3E2]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={showMobileMenu ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d={showMobileMenu ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
     </svg>
   </button>
+
 </header>
+
 
 <!-- Mobile Menu -->
 {#if showMobileMenu}
@@ -45,98 +57,10 @@
 {/if}
 
 
-	<!-- Hero Section 
-
-
-<div class="relative overflow-hidden flex flex-col lg:flex-row min-h-screen items-center justify-between">
-
-<div class="relative z-0 overflow-hidden flex flex-col lg:flex-row
-            min-h-[70vh] md:min-h-screen
-            lg:pt-0 lg:pb-0
-            items-center justify-center lg:justify-between">
-
-
-
-  <img
-    src="/media/pic1.png"
-    alt="speaker"
-    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
-  />
-
- 
-
-
-
-	<div class="relative z-10 flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left">
-		<h1 class="text-[#70B5F4] font-[merriweather]
-           text-2xl sm:text-5xl lg:text-7xl
-           leading-snug sm:leading-tight
-           text-center lg:text-left">
-  <span class="block">THE</span>
-  <span class="block">ILLUMINATI QUIZ</span>
-  <span class="block">2025</span>
-</h1>
-
-
-<p class="mt-2 text-sm sm:text-lg md:text-3xl font-[merriweather] text-[#70B5F4]">
-  18th Edition
-</p>
-
-<p class="mt-2 text-xs sm:text-base md:text-xl text-[#70B5F4] font-[merriweather]">In memory of Sandeep Menon</p>
-		<div class="mt-6 flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
-<p class="text-white text-lg font-[merriweather]">
-  
-  <span class="font-[merriweather] text-[#70B5F4]">
-    3rd Jan 2026 · IMA House, Cochin
-  </span>
-</p>
-
-			<a href="/register" class="px-7 py-3 bg-[#70B5F4] rounded-full text-xl font-[merriweather] hover:bg-[#f2b94f] transition-all duration-300">
-				Register Now
-			</a>
-		</div>
-	</div>
-<img
-    src="/media/pic2.png"
-    alt="audience"
-    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
-  />
-
-
-<img
-  src="/media/pic1.png"
-  alt="speaker"
-  class="
-    hidden lg:block
-    absolute
-    -top-[72px]
-    right-0
-    h-[60vh]
-    object-cover
-    rounded-b-[3rem]
-  "
-/>
-
-
-<img
-  src="/media/pic2.png"
-  alt="audience"
-  class="
-    hidden lg:block
-    absolute
-    -bottom-[72px]
-    right-[22%]
-    h-[50vh]
-    object-cover
-    rounded-t-[3rem]
-  "
-/>
-
-
-
-</div> -->
+	
 
 <div class="relative overflow-hidden flex flex-col lg:flex-row
+             pt-6 md:pt-12 lg:pt-20
             min-h-[70vh] md:min-h-screen
             items-center justify-center lg:justify-between">
 
@@ -175,7 +99,7 @@
   href="/register"
   class="mt-6 px-7 py-3 bg-[#70B5F4] rounded-full text-xl
          inline-flex w-fit self-center lg:self-start
-         hover:bg-[#f2b94f]"
+         hover:bg-white"
 >
   Register Now
 </a>
@@ -233,6 +157,7 @@
 			<p class="mt-4 text-base md:text-lg font-light text-[#020913]">
 				Cause nothing’s fun without proper incentive. Special thanks to our sponsors, primarily <b class="font-semibold">Ansys</b>
 			</p>
+			
 		</div>
 	</div>
 

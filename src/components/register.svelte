@@ -6,9 +6,9 @@
 <Menu/>
 
 <!-- REGISTER SECTION -->
-<div class="flex flex-col lg:flex-row items-start justify-center gap-10 px-6 md:px-12 py-20 bg-[#0b1320] min-h-screen">
+<div class="flex flex-col lg:flex-row items-stretch justify-between gap-10 px-6 md:px-12 py-20 bg-[#0b1320] min-h-screen">
   <!-- LEFT BOX -->
-  <div class="bg-[#A9D1F7] p-8 rounded-2xl flex-1 max-w-lg shadow-lg w-full">
+  <div class="bg-[#A9D1F7] items-stretch p-8 rounded-2xl shadow-lg w-full lg:w-1/2 lg:max-h-[455px] lg:overflow-y-auto">
     <h2 class="text-3xl text-[#0b1320] font-[merriweather] mb-4">General Rules</h2>
 
     <ul class="list-decimal list-inside text-[#0b1320]/90 text-lg mb-6 leading-relaxed space-y-2 font-lora">
@@ -26,7 +26,7 @@
   </div>
 
   <!-- RIGHT -->
-  <div class="flex flex-col flex-1 max-w-md w-full">
+  <div class="w-full lg:w-1/2">
     <div class="bg-[#101a2a] rounded-2xl p-6 space-y-4 mb-8 border border-[#1f2a3d]">
       <!-- Date -->
       <div class="flex items-center gap-3">
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 w-full max-w-xl">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 w-full">
       <!-- Open & College -->
       <div class="bg-[#101a2a] rounded-2xl p-6 border border-[#1f2a3d] hover:border-[#70B5F4] hover:-translate-y-1 hover:shadow-xl cursor-pointer transition-all duration-300 flex flex-col h-full">
         <div class="flex items-start gap-4 mb-4">
@@ -82,14 +82,14 @@
           </div>
         </div>
         <div class="flex-grow">
-          <p class="text-sm text-[#AACCCE] leading-6">
+         <!-- <p class="text-sm text-[#AACCCE] leading-6">
             Participate with your college or as an open team.
             Ideal for university students, working professionals,
             and independent quiz enthusiasts.
-          </p>
+          </p>-->
         </div>
         <a href="https://forms.gle/KNGZVa4qfeUWhTbU6" target="_blank"
-           class="block text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
+           class="w-full text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
           Register for Open / College
         </a>
         <p class="mt-2 text-xs text-[#AACCCE] text-center">
@@ -107,21 +107,23 @@
             <h3 class="text-lg font-[merriweather] text-white leading-snug">
               School Category
             </h3>
+            
             <p class="text-sm text-[#AACCCE] font-[merriweather]">
               Exclusively for school students
             </p>
           </div>
         </div>
         <div class="flex-grow">
-          <p class="text-sm text-[#AACCCE] leading-6">
+          <!---<p class="text-sm text-[#AACCCE] leading-6">
             Participate with your school as an official team.
             Ideal for motivated students interested in quizzes,
             learning, and competitive academic events.
-          </p>
+          </p>-->
         </div>
         <a href="https://forms.gle/A9BKHdcjM7gAfDk79" target="_blank"
-           class="block text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
-          Register for School
+           class="w-full text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
+          Register for <br>
+          School
         </a>
         <p class="mt-2 text-xs text-[#AACCCE] text-center">
           Opens Google Form in a new tab

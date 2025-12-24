@@ -14,16 +14,16 @@ let tabs = [
 </script>
 
 <!-- NAVBAR WRAPPER -->
-<div class="bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]">
+<div class="bg-gradient-to-tr from-[#020912] via-[#020912] to-[#020912]">
 	
-	<header class="flex items-center px-4 sm:px-6 lg:px-12 py-3 relative">
+	<header class="flex items-center justify-between px-4 sm:px-6 lg:px-12 py-3 relative">
 
 		<!-- Logo -->
 		<a href="/" class="flex-shrink-0">
 			<img class="w-16 sm:w-20 h-auto" src="/favicon.svg" alt="tiq" />
 		</a>
 
-		<!-- DESKTOP NAV -->
+		<!-- DESKTOP NAV 
 		<nav class="hidden md:flex ml-auto gap-6 text-lg">
 			{#each tabs as tab}
 				<a
@@ -35,7 +35,24 @@ let tabs = [
 					{tab.name}
 				</a>
 			{/each}
-		</nav>
+		</nav> -->
+		<nav class="hidden md:flex ml-auto gap-6 text-lg items-center">
+  {#each tabs as tab}
+    <a
+      href={tab.link}
+      class={`px-4 py-1 font-[merriweather] transition
+        ${$page.url.pathname === tab.link ? ' font-[merriweather]' : ''}
+        ${tab.name === 'Register'
+          ? 'bg-[#A9D1F7] text-[#0b1320] rounded-lg px-5 py-2 font-semibold hover:bg-[#8fc0f0]'
+          : 'text-[#F8F3E2] hover:text-[#70B5F4]'
+        }
+      `}
+    >
+      {tab.name}
+    </a>
+  {/each}
+</nav>
+
 
 		<!-- MOBILE HAMBURGER -->
 		<button 
