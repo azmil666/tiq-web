@@ -165,10 +165,10 @@ items-start lg:items-center
 		<img class="w-full max-w-xs md:max-w-sm lg:max-w-sm" src="/media/pic3.png" alt="Frame49" />
 		<div class="flex flex-col lg:w-1/2">
 			<h1 class="text-4xl md:text-5xl lg:text-6xl font-[merriweather] text-[#020913]">
-				Get ready for the Largest Quiz in India
+				Get ready for the Largest Quiz in South India
 			</h1>
 			<p class="mt-4 text-base md:text-lg font-light text-[#020913]">
-				With over 2000+ participants, including IIMs and IITs, here not just for our prize money but also for our convivial quizzing experience.
+				With over 400+ participants, including IIMs and IITs, here not just for our prize money but also for our convivial quizzing experience.
 			</p>
 		</div>
 	</div>
@@ -178,7 +178,7 @@ items-start lg:items-center
 		<img class="w-full max-w-xs md:max-w-sm lg:max-w-sm" src="/media/pic4.png" alt="Frame48" />
 		<div class="flex flex-col lg:w-1/2">
 			<h1 class="text-4xl md:text-5xl lg:text-6xl font-[merriweather] text-[#020913]">
-				With a Cash Pool totaling over ₹50,000
+				With a Cash Pool totaling over ₹55,000
 			</h1>
 			<p class="mt-4 text-base md:text-lg font-light text-[#020913]">
 				Cause nothing’s fun without proper incentive. Special thanks to our sponsors, primarily <b class="font-semibold">Ansys</b>
