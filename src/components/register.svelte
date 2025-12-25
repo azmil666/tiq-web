@@ -1,6 +1,7 @@
 <script>
   import { page } from '$app/stores';
   import Menu from './Menu.svelte';
+  import { GraduationCap, School } from "lucide-svelte";
 </script>
 
 <Menu/>
@@ -69,8 +70,8 @@
       <!-- Open & College -->
       <div class="bg-[#101a2a] rounded-2xl p-6 border border-[#1f2a3d] hover:border-[#70B5F4] hover:-translate-y-1 hover:shadow-xl cursor-pointer transition-all duration-300 flex flex-col h-full">
         <div class="flex items-start gap-4 mb-4">
-          <div class="w-12 h-12 rounded-full bg-[#101a2a]/20 flex items-center justify-center text-[#70B5F4] text-xl">
-            🎓
+          <div class="w-12 h-12 rounded-full bg-[#101a2a]/20 flex items-center justify-center text-[#70B5F4]">
+            <GraduationCap class="w-6 h-6" />
           </div>
           <div class="min-h-[72px]">
             <h3 class="text-lg font-[merriweather] text-white leading-snug">
@@ -100,8 +101,8 @@
       <!-- School -->
       <div class="bg-[#101a2a] rounded-2xl p-6 border border-[#1f2a3d] hover:border-[#70B5F4] hover:-translate-y-1 hover:shadow-xl cursor-pointer transition-all duration-300 flex flex-col h-full">
         <div class="flex items-start gap-4 mb-4">
-          <div class="w-12 h-12 rounded-full bg-[#101a2a]/20 flex items-center justify-center text-[#70B5F4] text-xl">
-            🏫
+          <div class="w-12 h-12 rounded-full bg-[#101a2a]/20 flex items-center justify-center text-[#70B5F4]">
+            <School class="w-6 h-6" />
           </div>
           <div class="min-h-[72px]">
             <h3 class="text-lg font-[merriweather] text-white leading-snug">

@@ -6,8 +6,6 @@
 
 	let scrollRef;
 
-	
-
 	function scrollLeft() {
 		if (!scrollRef) return;
 		scrollRef.scrollBy({ left: -scrollRef.clientWidth * 0.9, behavior: 'smooth' });
@@ -52,23 +50,6 @@
 	</div>
 </div>
 
-<!-- Sandeep Menon 
-<div class="flex flex-col lg:flex-row bg-[#A9D1F7] px-4 sm:px-10 py-10 lg:py-20 gap-6">
-
-	<img class="w-40 sm:w-60 mx-auto lg:mx-0" src="/media/sandeep_menon.png" alt="Sandeep Menon" />
-	<div class="flex flex-col lg:ml-10 text-center lg:text-left">
-		<h1 class="text-3xl sm:text-4xl lg:text-6xl font-[merriweather] text-[#020913] font-normal">Sandeep Menon</h1>
-		<h2 class="mt-2 sm:mt-4 text-xl sm:text-2xl lg:text-4xl italic font-[merriweather] text-[#020913]">(1984) - (2008)</h2>
-		<p class="mt-4 sm:mt-6 text-sm sm:text-base lg:text-base leading-relaxed text-[#020913]">
-			Sandeep Menon (batch of 2006 - Model Engineering College) is the founder and guiding spirit of
-			the 'The Illuminati'. An exceptional quizzer, he is affectionately known in local quizzing
-			circles as 'The Illuminatus'. He was diagnosed with cancer in 2005. Despite deteriorating
-			health, Sandeep pursued his academics with utmost commitment, led the placement cell to bring
-			record number of jobs on campus and instilled the spirit of quizzing in MEC. Yet, his dream
-			lives on through The Illuminati and its marquee event, The Illuminati Quiz.
-		</p>
-	</div>
-</div> -->
 <!-- Sandeep Menon -->
 <div class="flex flex-col lg:flex-row items-center bg-[#A9D1F7]
             px-4 sm:px-10 lg:px-24
@@ -106,41 +87,6 @@
   </div>
 </div>
 
-
-<!-- Govt Model Engineering College 
-<div class="flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] px-4 sm:px-10 lg:px-20 py-10 lg:py-20 gap-8">
-	<div class="flex flex-col lg:flex-row items-center gap-6">
-		<img 
-  src="/media/college.png" 
-  alt="college" 
-  class="w-48 sm:w-64 lg:w-[28rem] mx-auto lg:mx-0 h-auto"
-/>
-
-		<h1 class="text-3xl sm:text-4xl lg:text-6xl text-[#70B5F4] font-light font-[merriweather] text-center lg:text-left">
-			Govt. Model <br />Engineering College
-		</h1>
-	</div>
-	<div class="flex flex-col lg:flex-row gap-6 font-light text-white leading-relaxed">
-		<p class="flex-1">
-			Govt. Model Engineering College, Kochi, a premier institute of engineering education in Kerala
-			is not just another engineering college producing hordes of engineering graduates every year.
-			Nurturing a very diverse community of budding innovators and entrepreneurs, MEC has emblazoned
-			its name as one of the most sought-after destinations for students and recruiters alike. This
-			attests to MEC being ranked the 27th best engineering institute in the country.<br /><br />
-			Illuminati, the quizzing fraternity of Govt. Model Engineering College, Kochi is among the
-			most active students' societies of the college having conducted at least over a hundred intra
-			and inter collegiate quizzes.
-		</p>
-		<p class="flex-1">
-			Founded by the late Sandeep Menon to foster the spirit of quizzing in the student community,
-			Illuminati has grown into a recognisable name all across South India. The Illuminati organizes
-			the weekly Thank God Ifs Anyday (TGIX) intra college student quiz which spans a wide range of
-			subjects while bringing together avid quizzers from among the students to test their mettle
-			against each other in a battle of wits.
-		</p>
-	</div>
-</div>
--->
 <!-- Govt Model Engineering College -->
 <div class="relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]
             px-4 sm:px-10 lg:px-20
@@ -187,5 +133,54 @@
       to compete in a true battle of wits.
     </p>
 
+  </div>
+</div>
+<!-- Sandeep Menon Foundation -->
+<div class="flex flex-col lg:flex-row items-center bg-[#A9D1F7]
+            px-4 sm:px-10 lg:px-24
+            py-16 lg:py-28
+            gap-10">
+
+<!-- Foundation Illustration -->
+<div class="relative w-44 sm:w-64 lg:w-80 aspect-square flex items-center justify-center">
+  <img
+    src="/media/smf.webp"
+    class="w-[85%] h-[85%] object-contain
+           opacity-70
+           mix-blend-multiply
+           contrast-110"
+  />
+</div> 
+
+
+
+
+  <!-- Text -->
+  <div class="flex flex-col lg:ml-12 text-center lg:text-left max-w-3xl">
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-[merriweather] text-[#020913] font-normal">
+      Sandeep Menon Foundation
+    </h1>
+
+    <p class="mt-6 text-sm sm:text-base lg:text-lg leading-relaxed text-[#020913]">
+      The Sandeep Menon Foundation is a charitable trust established in memory of
+      Sandeep Menon. The foundation works across the fields of education, healthcare,
+      and sport, with a focus on supporting individuals and communities from
+      marginalised sections of society.
+    </p>
+
+    <p class="mt-4 text-sm sm:text-base lg:text-lg leading-relaxed text-[#020913]">
+      Its initiatives include providing medical support to cancer patients, donating
+      medical equipment to public health organisations, offering financial assistance
+      to students, and supporting amateur and professional sportspersons.
+    </p>
+
+    <a
+      href="https://www.sandeepmenon.net"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mt-6 inline-block text-sm sm:text-base font-[merriweather]
+             text-[#020913] underline hover:text-[#143253] transition">
+      Learn more about the Foundation
+    </a>
   </div>
 </div>

@@ -43,8 +43,10 @@ import Menu from './Menu.svelte';
 		{/each}
 	</div>
 
-	<!-- IMAGE GRID -->
-	<div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mx-auto max-w-6xl no-scrollbar">
+	<!-- IMAGE GRID 
+	<div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mx-auto max-w-6xl no-scrollbar">-->
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mx-auto max-w-6xl no-scrollbar">
+
 		{#each gallery[selectedYear] as img}
 			<img
 				src={img}

@@ -12,7 +12,7 @@ let tabs = [
     showMenu = !showMenu;
   }
 </script>
-
+<!--#101a2a #020912-->
 <!-- NAVBAR WRAPPER -->
 <div class="bg-gradient-to-tr from-[#020912] via-[#020912] to-[#020912]">
 	

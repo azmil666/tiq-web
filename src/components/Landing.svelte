@@ -13,10 +13,10 @@
 		{ name: 'Register', link: '/register' }
 	];
 </script>
+<!--#0b1320. #101a2a-->
+<div class="flex flex-col relative bg-gradient-to-tr from-[#101a2a] via-[#101a2a] to-[#101a2a]">
 
-<div class="flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]">
-
-<header class="flex items-center justify-between px-4 md:px-10 py-4 bg-[#020912]">
+<header class="flex items-center justify-between px-4 md:px-10 py-4 bg-[#101a2a]">
 
   <!-- Logo -->
   <img class="w-20 h-21" src="/favicon.svg" alt="tiq" />
