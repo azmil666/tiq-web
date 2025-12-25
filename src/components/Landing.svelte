@@ -19,7 +19,7 @@
 <header class="flex items-center justify-between px-4 md:px-10 py-4 bg-[#101a2a]">
 
   <!-- Logo -->
-  <img class="w-20 h-21" src="/favicon.svg" alt="tiq" />
+  <img class="w-20 h-20" src="/favicon.svg" alt="tiq" />
 
   <!-- Desktop Nav -->
   <nav class="hidden md:flex items-center space-x-6 text-[#F8F3E2] font-[merriweather] font-light text-lg tracking-wide">
@@ -59,10 +59,6 @@
 
 	
 
-<!--<div class="relative overflow-hidden flex flex-col lg:flex-row
-             pt-6 md:pt-12 lg:pt-20
-            min-h-[70vh] md:min-h-screen
-            items-center justify-center lg:justify-between"> -->
 <div
   class="relative overflow-hidden flex flex-col lg:flex-row
          min-h-[80vh] lg:min-h-[85vh]
@@ -86,12 +82,24 @@ items-start lg:items-center
     ANSYS presents
   </p>
 
-  <!-- Title -->
+  <!-- Title 
   <h1 class="text-[#70B5F4] font-[merriweather]
              text-4xl sm:text-6xl lg:text-7xl
              leading-snug sm:leading-tight">
     THE <br>ILLUMINATI QUIZ <br> 2025
-  </h1>
+  </h1> -->
+  <h1
+  class="font-[merriweather]
+         text-[#4F8FCC] sm:text-[#70B5F4]
+         text-5xl sm:text-6xl lg:text-7xl
+         leading-tight
+         text-center lg:text-left"
+>
+  THE<br />
+  ILLUMINATI QUIZ<br />
+  2025
+</h1>
+
 
   <!-- Edition -->
   <p class="mt-2 text-lg sm:text-2xl text-[#70B5F4] font-[merriweather]">
