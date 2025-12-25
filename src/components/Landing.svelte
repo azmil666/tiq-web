@@ -168,7 +168,7 @@ items-start lg:items-center
 				Get ready for the Largest Quiz in South India
 			</h1>
 			<p class="mt-4 text-base md:text-lg font-light text-[#020913]">
-				With over 400+ participants, including IIMs and IITs, here not just for our prize money but also for our convivial quizzing experience.
+				With over 400 participants, including students from IIMs and IITs, attendees come not only for the prize money but also for the convivial quizzing experience.
 			</p>
 		</div>
 	</div>
