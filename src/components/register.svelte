@@ -84,17 +84,13 @@
           </div>
         </div>
         <div class="flex-grow">
-         <!-- <p class="text-sm text-[#AACCCE] leading-6">
-            Participate with your college or as an open team.
-            Ideal for university students, working professionals,
-            and independent quiz enthusiasts.
-          </p>-->
+        
         </div>
         <a href="https://forms.gle/KNGZVa4qfeUWhTbU6" target="_blank"
            class="w-full text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
           Register for Open / <br>College
         </a>
-        <p class="mt-2 text-xs text-[#101a2a] text-center">
+        <p class="mt-2 text-xs invisible select-none">
           Opens Google Form in a new tab
         </p>
       </div>
@@ -117,18 +113,14 @@
           </div>
         </div>
         <div class="flex-grow">
-          <!---<p class="text-sm text-[#AACCCE] leading-6">
-            Participate with your school as an official team.
-            Ideal for motivated students interested in quizzes,
-            learning, and competitive academic events.
-          </p>-->
+         
         </div>
         <a href="https://forms.gle/A9BKHdcjM7gAfDk79" target="_blank"
            class="w-full text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
           Register for <br>
           School
         </a>
-        <p class="mt-2 text-xs text-[#101a2a] text-center">
+        <p class="mt-2 text-xs invisible select-none">
           Opens Google Form in a new tab
         </p>
       </div>
