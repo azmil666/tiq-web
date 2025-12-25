@@ -49,7 +49,7 @@
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
         <span class="text-lg text-[#AACCCE]">
-          <span class="font-[merriweather] text-[#AACCCE]">Time:</span> 9:00 AM – 3:00 PM
+          <span class="font-[merriweather] text-[#AACCCE]">Time:</span> 9:00 AM onwards
         </span>
       </div>
 
