@@ -1,38 +1,89 @@
-# sv
+## The Illuminati Quiz – Official Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repository contains the official website for **The Illuminati Quiz (TIQ)**, an inter-collegiate quiz competition organised by Govt. Model Engineering College, Kochi.
 
-## Creating a project
+The website is built using **SvelteKit** and styled with **Tailwind CSS**. It is production-ready and supports both traditional Node hosting and Docker-based deployment.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## Tech Stack
+
+* **Framework:** SvelteKit
+* **Styling:** Tailwind CSS
+* **Runtime:** Node.js
+* **Deployment:** Vercel / Docker
+
+---
+
+## Local Development
+
+### Prerequisites
+
+* Node.js (v18+ recommended)
+* npm
+
+### Steps
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+The site will be available at:
+👉 `http://localhost:5173`
 
-To create a production version of your app:
+---
+
+## Production Build (Node)
 
 ```bash
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+Preview runs the production build locally.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+
+## Running with Docker (Recommended for Hosting)
+
+### Prerequisites
+
+* Docker & Docker Desktop installed and running
+
+### Build the image
+
+```bash
+docker build -t tiq-web .
+```
+
+### Run the container
+
+```bash
+docker run -d -p 3000:3000 tiq-web
+```
+
+The website will be available at:
+👉 `http://localhost:3000`
+
+---
+
+## Notes for Deployment
+
+* Docker images **do not auto-update** when the repository changes.
+* To apply updates:
+
+  1. Pull the latest code
+  2. Rebuild the Docker image
+  3. Restart the container
+
+This behavior is intentional and standard for Docker-based deployments.
+
+---
+
+## License
+
+This project is maintained for official use by The Illuminati Quiz team.
+
+---
+
