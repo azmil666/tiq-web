@@ -94,7 +94,7 @@
            class="w-full text-center px-6 py-3 rounded-full bg-[#70B5F4] text-[#0b1320] font-[merriweather] hover:bg-[#5aa3e6] transition-all duration-300">
           Register for Open / <br>College
         </a>
-        <p class="mt-2 text-xs text-[#AACCCE] text-center">
+        <p class="mt-2 text-xs text-[#101a2a] text-center">
           Opens Google Form in a new tab
         </p>
       </div>
@@ -128,7 +128,7 @@
           Register for <br>
           School
         </a>
-        <p class="mt-2 text-xs text-[#AACCCE] text-center">
+        <p class="mt-2 text-xs text-[#101a2a] text-center">
           Opens Google Form in a new tab
         </p>
       </div>

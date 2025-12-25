@@ -67,14 +67,7 @@ items-start lg:items-center
          pt-6 md:pt-10 lg:pt-12">
 
 
-  <!-- MOBILE: TOP IMAGE 
-  <div class="lg:hidden w-full flex justify-center my-10">
-  <img
-    src="/media/pic1.png"
-    alt="speaker"
-    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
-  />
-</div> -->
+  
 <div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left my-10">
 
   <!-- Sponsor -->
@@ -82,12 +75,7 @@ items-start lg:items-center
     ANSYS presents
   </p>
 
-  <!-- Title 
-  <h1 class="text-[#70B5F4] font-[merriweather]
-             text-4xl sm:text-6xl lg:text-7xl
-             leading-snug sm:leading-tight">
-    THE <br>ILLUMINATI QUIZ <br> 2025
-  </h1> -->
+  
   <h1
   class="font-[merriweather]
          text-[#4F8FCC] sm:text-[#70B5F4]
@@ -151,47 +139,7 @@ items-start lg:items-center
 
 </div>
 
-  <!-- TEXT 
-  <div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left my-10">
-    <h1 class="text-[#70B5F4] font-[merriweather]
-               text-2xl sm:text-5xl lg:text-7xl
-               leading-snug sm:leading-tight">
-      <span class="block">THE</span>
-      <span class="block">ILLUMINATI QUIZ</span>
-      <span class="block">2025</span>
-    </h1>
-
-    <p class="mt-2 text-sm sm:text-lg md:text-3xl text-[#70B5F4]">
-      18th Edition
-    </p>
-
-    <p class="mt-2 text-xs sm:text-base md:text-xl text-[#70B5F4]">
-      In memory of Sandeep Menon
-    </p>
-
-    <p class="mt-4 text-[#70B5F4]">
-      3rd Jan 2026 · IMA House, Cochin
-    </p>
-
-    <a
-  href="/register"
-  class="mt-6 px-7 py-3 bg-[#70B5F4] rounded-full text-xl
-         inline-flex w-fit self-center lg:self-start
-         hover:bg-white"
->
-  Register Now
-</a>
-
-  </div> -->
-
-  <!-- MOBILE: BOTTOM IMAGE 
-  <div class="lg:hidden w-full flex justify-center my-10">
-  <img
-    src="/media/pic11.png"
-    alt="audience"
-    class="w-64 max-w-[80%] rounded-3xl shadow-xl"
-  />
-</div>-->
+  
 
 
   <!-- DESKTOP ONLY (UNCHANGED) -->
@@ -268,13 +216,25 @@ items-start lg:items-center
   />
 </div>
 
+<div
+  class="flex flex-col items-center justify-center
+         bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a]
+         min-h-[60vh] lg:min-h-[75vh]
+         py-20 px-6 text-center"
+>
 
-	<!-- CTA Section -->
-	<div class="flex flex-col items-center bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] text-center py-16 px-4">
-		<h1 class="text-3xl sm:text-5xl md:text-6xl text-[#70B5F4] font-[merriweather]">Are you up against the best of India?</h1>
-		<p class="mt-4 text-[#70B5F4] text-base font-[merriweather]">
-			Register now to experience premium quizzing and win ₹55,000
-		</p>
+    <h1
+  class="font-[merriweather] text-[#70B5F4]
+         text-4xl sm:text-6xl lg:text-7xl xl:text-8xl
+         leading-tight text-center"
+>
+  Are you up against the best?
+</h1>
+
+		<p class="mt-4 text-[#70B5F4]/90 text-base sm:text-lg font-[merriweather]">
+  Register to compete for a total prize pool of ₹55,000.
+</p>
+
 		<a href="/register" class="mt-6 px-5 py-2 bg-[#70B5F4] font-[merriweather] rounded-full text-xl hover:bg-white transition-all duration-300">
 			Register Now
 		</a>

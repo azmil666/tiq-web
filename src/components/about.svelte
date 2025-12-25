@@ -157,22 +157,29 @@
 
   <!-- Text -->
   <div class="flex flex-col lg:ml-12 text-center lg:text-left max-w-3xl">
-    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-[merriweather] text-[#020913] font-normal">
-      Sandeep Menon Foundation
-    </h1>
+    <p class="text-sm uppercase tracking-widest text-[#143253] font-[merriweather] mb-2">
+  Official Supporting Foundation
+</p>
+
+<h1 class="text-3xl sm:text-4xl lg:text-5xl font-[merriweather] text-[#020913] font-normal">
+  Sandeep Menon Foundation
+</h1>
+
 
     <p class="mt-6 text-sm sm:text-base lg:text-lg leading-relaxed text-[#020913]">
-      The Sandeep Menon Foundation is a charitable trust established in memory of
-      Sandeep Menon. The foundation works across the fields of education, healthcare,
-      and sport, with a focus on supporting individuals and communities from
-      marginalised sections of society.
-    </p>
+  The Sandeep Menon Foundation is the official supporting foundation of
+  The Illuminati Quiz. Founded after Sandeep Menon’s passing, the
+  Foundation continues to uphold and support the quiz that he himself
+  founded during his time at Govt. Model Engineering College.
+</p>
 
-    <p class="mt-4 text-sm sm:text-base lg:text-lg leading-relaxed text-[#020913]">
-      Its initiatives include providing medical support to cancer patients, donating
-      medical equipment to public health organisations, offering financial assistance
-      to students, and supporting amateur and professional sportspersons.
-    </p>
+<p class="mt-4 text-sm sm:text-base lg:text-lg leading-relaxed text-[#020913]">
+  Through its continued backing of The Illuminati Quiz, the Foundation
+  honours Sandeep Menon’s legacy and vision, while extending its work
+  across education, healthcare, and sport to create meaningful impact
+  and opportunity for marginalised communities.
+</p>
+
 
     <a
       href="https://www.sandeepmenon.net"
