@@ -8,6 +8,7 @@ import Menu from './Menu.svelte';
 	let preview = null;
 
 	const gallery = {
+		2021: ["/media/2021(1).webp","/media/2021(2).webp","/media/2021(3).webp"],
 		2022: ["/media/2022(1).webp","/media/2022(2).webp","/media/2022(3).webp"],
 		2023: ["/media/2023(1).webp","/media/2023(2).webp","/media/2023(3).webp"],
 		2024: ["/media/2024(1).webp","/media/2024(2)-2.webp","/media/2024(3).webp"]
@@ -24,7 +25,7 @@ import Menu from './Menu.svelte';
 
 
 <!-- MAIN GALLERY -->
-<div class="min-h-screen bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] py-16 px-4 sm:px-6 lg:px-12">
+<div class="min-h-screen bg-gradient-to-tr from-[#101a2a] via-[#101a2a] to-[#101a2a] py-16 px-4 sm:px-6 lg:px-12">
 	
 	<h1 class="text-center text-4xl md:text-5xl font-[Merriweather] text-[#70B5F4] mb-12">
 		Gallery
@@ -32,7 +33,7 @@ import Menu from './Menu.svelte';
 
 	<!-- YEAR SELECTOR -->
 	<div class="flex justify-center gap-3 sm:gap-6 flex-wrap mb-10">
-		{#each [2022, 2023, 2024] as yr}
+		{#each [2021,2022, 2023, 2024] as yr}
 			<button
 				on:click={() => setYear(yr)}
 				class={`px-5 py-2 rounded-full border border-[#70B5F4] transition

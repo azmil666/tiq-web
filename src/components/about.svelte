@@ -21,7 +21,7 @@
 <Menu />
 
 <!-- Dark blue bg-->
-<div class="flex flex-col relative bg-gradient-to-tr from-[#020912] via-[#0b1320] to-[#101a2a] pb-24">
+<div class="flex flex-col relative bg-gradient-to-tr from-[#101a2a] via-[#101a2a] to-[#101a2a] pb-24">
 
 	<!-- About TIQ -->
 	<div class="flex flex-col lg:flex-row items-center mt-16 px-4 sm:px-10 lg:mx-20 gap-10">

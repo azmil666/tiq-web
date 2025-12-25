@@ -59,21 +59,91 @@
 
 	
 
-<div class="relative overflow-hidden flex flex-col lg:flex-row
+<!--<div class="relative overflow-hidden flex flex-col lg:flex-row
              pt-6 md:pt-12 lg:pt-20
             min-h-[70vh] md:min-h-screen
-            items-center justify-center lg:justify-between">
+            items-center justify-center lg:justify-between"> -->
+<div
+  class="relative overflow-hidden flex flex-col lg:flex-row
+         min-h-[80vh] lg:min-h-[85vh]
+items-start lg:items-center
+ justify-center lg:justify-between
+         pt-6 md:pt-10 lg:pt-12">
 
-  <!-- MOBILE: TOP IMAGE -->
+
+  <!-- MOBILE: TOP IMAGE 
   <div class="lg:hidden w-full flex justify-center my-10">
   <img
     src="/media/pic1.png"
     alt="speaker"
     class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
+</div> -->
+<div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left my-10">
+
+  <!-- Sponsor -->
+  <p class="text-[#AACCCE] font-[merriweather] uppercase tracking-widest text-sm mb-2">
+    ANSYS presents
+  </p>
+
+  <!-- Title -->
+  <h1 class="text-[#70B5F4] font-[merriweather]
+             text-4xl sm:text-6xl lg:text-7xl
+             leading-snug sm:leading-tight">
+    THE <br>ILLUMINATI QUIZ <br> 2025
+  </h1>
+
+  <!-- Edition -->
+  <p class="mt-2 text-lg sm:text-2xl text-[#70B5F4] font-[merriweather]">
+    18th Edition
+  </p>
+
+  <!-- Memorial -->
+  <p class="mt-2 italic text-[#AACCCE] font-[merriweather]">
+    In memory of Sandeep Menon
+  </p>
+
+  <!-- Date & Venue -->
+  <div class="mt-4 flex flex-col sm:flex-row
+              items-center justify-center lg:justify-start
+              gap-4 text-[#70B5F4]">
+
+    <div class="flex items-center gap-2">
+      <!-- calendar icon -->
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24">
+        <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span>3 Jan 2026</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <!-- location icon -->
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24">
+        <path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 1 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+      <span>IMA House, Cochin</span>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <a
+    href="/register"
+    class="mt-6 px-7 py-3 bg-[#70B5F4] rounded-full text-xl
+           inline-flex w-fit font-[merriweather] self-center lg:self-start
+           hover:bg-white transition"
+  >
+    Register Now
+  </a>
+
 </div>
 
-  <!-- TEXT -->
+  <!-- TEXT 
   <div class="flex flex-col flex-1 px-6 md:px-16 text-center lg:text-left my-10">
     <h1 class="text-[#70B5F4] font-[merriweather]
                text-2xl sm:text-5xl lg:text-7xl
@@ -104,16 +174,16 @@
   Register Now
 </a>
 
-  </div>
+  </div> -->
 
-  <!-- MOBILE: BOTTOM IMAGE -->
+  <!-- MOBILE: BOTTOM IMAGE 
   <div class="lg:hidden w-full flex justify-center my-10">
   <img
     src="/media/pic11.png"
     alt="audience"
     class="w-64 max-w-[80%] rounded-3xl shadow-xl"
   />
-</div>
+</div>-->
 
 
   <!-- DESKTOP ONLY (UNCHANGED) -->

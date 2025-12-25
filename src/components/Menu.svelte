@@ -12,9 +12,9 @@ let tabs = [
     showMenu = !showMenu;
   }
 </script>
-<!--#101a2a #020912-->
+<!--#101a2a #020912 #101a2a-->
 <!-- NAVBAR WRAPPER -->
-<div class="bg-gradient-to-tr from-[#020912] via-[#020912] to-[#020912]">
+<div class="bg-gradient-to-tr from-[#101a2a] via-[#101a2a] to-[#101a2a]">
 	
 	<header class="flex items-center justify-between px-4 sm:px-6 lg:px-12 py-3 relative">
 

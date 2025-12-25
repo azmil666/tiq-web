@@ -7,7 +7,7 @@
 <Menu/>
 
 <!-- REGISTER SECTION -->
-<div class="flex flex-col lg:flex-row items-stretch justify-between gap-10 px-6 md:px-12 py-20 bg-[#0b1320] min-h-screen">
+<div class="flex flex-col lg:flex-row items-stretch justify-between gap-10 px-6 md:px-12 py-20 bg-[#101a2a] min-h-screen">
   <!-- LEFT BOX -->
   <div class="bg-[#A9D1F7] items-stretch p-8 rounded-2xl shadow-lg w-full lg:w-1/2 lg:max-h-[455px] lg:overflow-y-auto">
     <h2 class="text-3xl text-[#0b1320] font-[merriweather] mb-4">General Rules</h2>
@@ -68,7 +68,8 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 w-full">
       <!-- Open & College -->
-      <div class="bg-[#101a2a] rounded-2xl p-6 border border-[#1f2a3d] hover:border-[#70B5F4] hover:-translate-y-1 hover:shadow-xl cursor-pointer transition-all duration-300 flex flex-col h-full">
+      <div class="bg-[#101a2a] rounded-2xl p-6 border-2 border-[#70B5F4]
+            hover:-translate-y-4 hover:shadow-[0_0_30px_rgba(112,181,244,0.25)] cursor-pointer transition-all duration-300 flex flex-col h-full">
         <div class="flex items-start gap-4 mb-4">
           <div class="w-12 h-12 rounded-full bg-[#101a2a]/20 flex items-center justify-center text-[#70B5F4]">
             <GraduationCap class="w-6 h-6" />
@@ -99,7 +100,8 @@
       </div>
 
       <!-- School -->
-      <div class="bg-[#101a2a] rounded-2xl p-6 border border-[#1f2a3d] hover:border-[#70B5F4] hover:-translate-y-1 hover:shadow-xl cursor-pointer transition-all duration-300 flex flex-col h-full">
+      <div class="bg-[#101a2a] rounded-2xl p-6 border-2 border-[#70B5F4]
+             hover:-translate-y-4 hover:shadow-[0_0_30px_rgba(112,181,244,0.25)] cursor-pointer transition-all duration-300 flex flex-col h-full">
         <div class="flex items-start gap-4 mb-4">
           <div class="w-12 h-12 rounded-full bg-[#101a2a]/20 flex items-center justify-center text-[#70B5F4]">
             <School class="w-6 h-6" />
